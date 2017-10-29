@@ -1,0 +1,2 @@
+- Server is responsible for fetching temperature and filtering places
+- Frontend is a client app for rendering these changes
