@@ -10,4 +10,12 @@ export class AboutPage {
   constructor(public navCtrl: NavController) {
 
   }
+
+    playMusic(name) {
+        window.currentlyPlaying = new Audio(`${name}.mp3`).play()
+    }
+
+    pauseMusic(name) {
+        
+    }
 }
