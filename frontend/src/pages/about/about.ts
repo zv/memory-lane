@@ -11,8 +11,22 @@ export class AboutPage {
 
   }
 
+    is_listening() {
+        if (window.currentlyPlaying) {
+            return "Pause"
+        } else {
+            return "Listen"
+        }
+    }
+
     playMusic(name) {
-        window.currentlyPlaying = new Audio(`${name}.mp3`).play()
+        if (window.currentlyPlaying) {
+            window.currentlyPlaying.pause()
+            window.currentlyPlaying = null;
+        } else {
+            window.currentlyPlaying = new Audio(`${name}.mp3`)
+            window.currentlyPlaying.play()
+        }
     }
 
     pauseMusic(name) {
