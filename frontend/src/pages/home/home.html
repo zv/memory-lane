@@ -7,5 +7,11 @@
 <ion-content class="cards-bg">
 
     <img src="/thing.png" />
+    <ion-item>
+      <ion-range min="1000" max="2000" step="100" snaps="true" [(ngModel)]="warmth" color="danger">
+        <ion-icon range-left small color="danger" name="thermometer">0K</ion-icon>
+        <ion-icon range-right small color="danger" name="thermometer">800k</ion-icon>
+      </ion-range>
+    </ion-item>
 
 </ion-content>

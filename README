@@ -1,2 +1,26 @@
 - Server is responsible for fetching temperature and filtering places
 - Frontend is a client app for rendering these changes
+
+
+We created an augmented reality app which lets people share stories tied to locations
+and experiences which happened on a day much like today.
+
+In a world obsessed with the future and disconnected from the past, sometimes
+our shared thread of experience with others is that they have walked in our footsteps, 
+on a cloudy, muggy day like this.
+
+We cross referenced GE CityIQ's environmental data with stories recorded under
+similar conditions and notify the user when they've stumbled upon one.
+
+There are thousands of digitized records of San Diego's past and present that
+may be cross referenced with historical climate data from the National Oceanic
+and Atmospheric Agency, each telling stories of people like us, on a day
+like this. 
+
+From the hard-driving mayoral races of San Diego's unusually hot and wet 1880s,
+to the poignant news stories recorded a 100 years later, of children gunned down
+on street corners that are unmarked today
+
+Each story has a location and radius from which you recieve notifications and
+can listen to it, we've recorded a few stories for you to view here.
+
